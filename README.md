@@ -29,6 +29,7 @@ $ docker push ${LOCATION}-docker.pkg.dev/${PROJECT_ID}/${REPOSITORY}/${IMAGE}:la
 ## cloud build
 gcloud builds submit --tag ${LOCATION}-docker.pkg.dev/${PROJECT_ID}/${REPOSITORY}/${IMAGE} .
 ```
+- https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling
 
 ### Deploy to GKE Cluster
 ```
